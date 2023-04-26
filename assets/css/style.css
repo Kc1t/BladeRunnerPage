@@ -8,5 +8,95 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Triakis;
+    list-style-type: none;
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/assets/img/bgFull.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    left: 30px;
+    top: 83px;
+    width: 100px; /* ajuste o valor de acordo com o tamanho desejado */
+    height: auto; /* a altura será ajustada automaticamente de acordo com a largura definida */
+  }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero-Txts{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    margin-top: 280px;
+}
+
+.hero-text{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.hero-text li{
+    font-weight: 400;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.hero-Txts h1{
+    font-weight: 550;
+    font-size: 70px;
+    align-items: center;
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.hero-Txts h2{
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.line-img{
+    max-width: 70vw;
+    padding: 5px 20px;
+}
+
+.hero-img{
+    height: 500px;
+    position: absolute;
+    top: 120px;
+    right: -90px;
+    z-index: 2;
+}
+
+.hero-btns{
+    color: white;
+    margin-top: 50px;
+}
+
+  
+@media (min-width: 768px){
+    body{
+        display: none;
+    }
+}
