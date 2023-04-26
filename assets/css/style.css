@@ -123,9 +123,31 @@ body{
     top: 731px;
 }
 
+.warn{
+    color: black;
+    display: none;
+}
   
 @media (min-width: 768px){
+    
     body{
+        background-image: none;
+    }
+
+    .wrapper{
         display: none;
+    }
+
+    .warn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .warn span{
+        font-size: 30px;
+        color: gray;
     }
 }
