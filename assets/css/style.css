@@ -92,6 +92,27 @@ body{
 .hero-btns{
     color: white;
     margin-top: 50px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-btn{
+}
+
+.run-btn h3{
+    align-items: center;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.run-btn span{
+    font-size: 14px;
+}
+
+.run-btn img{
+    width: 11px;
+    padding-bottom: 5px;
 }
 
   
