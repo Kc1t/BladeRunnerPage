@@ -28,9 +28,8 @@ body{
     z-index: 2;
     left: 30px;
     top: 83px;
-    width: 100px; /* ajuste o valor de acordo com o tamanho desejado */
-    height: auto; /* a altura será ajustada automaticamente de acordo com a largura definida */
-  }
+    width: 100px;
+    height: auto;
 
 .wrapper{
     display: flex;
